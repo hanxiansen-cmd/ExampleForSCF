@@ -7,7 +7,7 @@ def pushinfo(info,specific):
     'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36',
     'ContentType': 'text/html'
     }
-    requests.session().get("https://sc.ftqq.com/SCU115905Tbf2fb0877564b2e119d4c1ad98e00f065f72eb61909c9.send?text=" + info + "&desp=" + specific,headers=headers)
+    requests.session().get("SCU115905Tbf2fb0877564b2e119d4c1ad98e00f065f72eb61909c9.send?text=" + info + "&desp=" + specific,headers=headers)
 
 
 def main(*args):
